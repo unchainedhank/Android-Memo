@@ -1,11 +1,22 @@
 package com.orzmo.Memo.core;
 
+import android.graphics.Bitmap;
+
 public class Memo {
     private String title;
     private String username;
     private String datetime;
     private String content;
     private int id;
+//    private Bitmap image;
+
+//    public Bitmap getImage() {
+//        return image;
+//    }
+//
+//    public void setImage(Bitmap image) {
+//        this.image = image;
+//    }
 
     public Memo(){
 

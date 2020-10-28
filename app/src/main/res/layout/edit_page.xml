@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_backgroud">
+
+    <EditText
+        android:id="@+id/input_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="40sp"
+        android:textColorHint="@color/yellow"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/yellow"
+        android:hint="Title >>" />
+
+    <TextView
+        android:id="@+id/input_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/input_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="@color/yellow"
+        android:textColorHint="@color/yellow"
+        android:textSize="20sp"
+        android:text="content >>"
+        tools:hint="content >>" />
+
+
+    <EditText
+        android:id="@+id/input_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/yellow"
+        android:textColor="@color/yellow"
+        android:hint="maker >>" />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="410dp"
+        android:layout_height="150dp"/>
+    <Button
+        android:id="@+id/button_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="15dp"
+        android:textSize="40sp"
+        android:background="@color/dark_backgroud"
+        android:text="add image" />
+
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="15dp"
+        android:textSize="40sp"
+        android:background="@color/dark_backgroud"
+        android:text="save" />
+
+</LinearLayout>
